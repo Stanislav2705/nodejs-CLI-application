@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanislav2705/nodejs-CLI-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanislav2705/nodejs-CLI-application/issues"
+  },
+  "homepage": "https://github.com/Stanislav2705/nodejs-CLI-application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
