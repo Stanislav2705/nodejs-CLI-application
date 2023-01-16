@@ -1,5 +1,10 @@
-const { listContacts, getContactById, removeContact } = require("./contacts");
 const { Command } = require("commander");
+const {
+  listContacts,
+  getContactById,
+  removeContact,
+  addContact,
+} = require("./contacts");
 require("colors");
 
 const program = new Command();
